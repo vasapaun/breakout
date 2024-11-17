@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/home/vasa/projekti/breakout/build",
+  "command": "/usr/bin/c++   -std=gnu++20 -o CMakeFiles/main.dir/main.cpp.o -c /home/vasa/projekti/breakout/main.cpp",
+  "file": "/home/vasa/projekti/breakout/main.cpp",
+  "output": "CMakeFiles/main.dir/main.cpp.o"
+},
+{
+  "directory": "/home/vasa/projekti/breakout/build",
+  "command": "/usr/bin/c++   -std=gnu++20 -o CMakeFiles/main.dir/Ball.cpp.o -c /home/vasa/projekti/breakout/Ball.cpp",
+  "file": "/home/vasa/projekti/breakout/Ball.cpp",
+  "output": "CMakeFiles/main.dir/Ball.cpp.o"
+},
+{
+  "directory": "/home/vasa/projekti/breakout/build",
+  "command": "/usr/bin/c++   -std=gnu++20 -o CMakeFiles/main.dir/Renderer.cpp.o -c /home/vasa/projekti/breakout/Renderer.cpp",
+  "file": "/home/vasa/projekti/breakout/Renderer.cpp",
+  "output": "CMakeFiles/main.dir/Renderer.cpp.o"
+},
+{
+  "directory": "/home/vasa/projekti/breakout/build",
+  "command": "/usr/bin/c++   -std=gnu++20 -o CMakeFiles/main.dir/Game.cpp.o -c /home/vasa/projekti/breakout/Game.cpp",
+  "file": "/home/vasa/projekti/breakout/Game.cpp",
+  "output": "CMakeFiles/main.dir/Game.cpp.o"
+}
+]

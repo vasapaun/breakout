@@ -1,0 +1,3 @@
+/home/vasa/projekti/breakout/build/CMakeFiles/main.dir
+/home/vasa/projekti/breakout/build/CMakeFiles/edit_cache.dir
+/home/vasa/projekti/breakout/build/CMakeFiles/rebuild_cache.dir
