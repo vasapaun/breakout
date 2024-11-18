@@ -19,6 +19,8 @@ Ball::Ball(sf::Vector2f pos, float ang, float spd, float rad, const std::string&
         throw std::invalid_argument("Texture unable to load");
     _texture.setRepeated(false);
 
+    _sprite.setOrigin(_radius, _radius);
+
     _sprite.setTexture(_texture);
     _sprite.setPosition(pos);
     float scale = rad * 2.0f / _texture.getSize().x;

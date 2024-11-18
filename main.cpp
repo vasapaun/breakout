@@ -4,7 +4,7 @@ void handleEvent(sf::Event* event, sf::RenderWindow* window);
 
 int main() {
     sf::RenderWindow mainWin = sf::RenderWindow(sf::VideoMode(0,0), "BreakouT", sf::Style::Fullscreen);
-    Ball mainBall = Ball(sf::Vector2f(200,200), 0, 0.1f, 80, "../resources/ball.png");
+    Ball mainBall = Ball(sf::Vector2f(200,200), -std::numbers::pi/4, 0.1f, 200, "../resources/ball.png");
 
     Renderer rend = Renderer(mainWin, mainBall);
     Game game = Game(mainBall, rend, sf::Vector2f(mainWin.getSize().x, mainWin.getSize().y));
