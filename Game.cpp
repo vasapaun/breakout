@@ -13,7 +13,7 @@ void Game::updateBall()
 
     if(((newPos.x + _ball.getRadius()) > _bounds.x) || ((newPos.x - _ball.getRadius()) < 0))
     {
-        // Put it back in the box as if it bounced off the wall mid tick
+        // Put it back in the box as if it bounced off the wall in between ticks
         newPos.x = std::fmod(newPos.x - _bounds.x, _bounds.x);
         if (newPos.x < 0)   newPos.x += _bounds.x;
 
@@ -22,7 +22,7 @@ void Game::updateBall()
 
     if(((newPos.y + _ball.getRadius()) > _bounds.y) || ((newPos.y - _ball.getRadius()) < 0))
     {  
-        // Put it back in the box as if it bounced off the wall mid tick
+        // Put it back in the box as if it bounced off the wall in between ticks
         newPos.y = std::fmod(newPos.y, _bounds.y);
         if (newPos.y < 0) newPos.y += _bounds.y;
 
